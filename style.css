@@ -1,0 +1,51 @@
+body {
+    background-image: url("img/6282340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    font-family: Andale Mono, monospace;
+    padding-bottom: 56px;
+}
+
+.carousel-item img {
+    max-height: 500px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.navbar {
+    margin-bottom: 56px;
+}
+
+.carousel {
+    margin-bottom: 56px;
+}
+
+.row {
+    margin-bottom: 56px;
+}
+.bg-color {
+    /* background-color: #1e2132; */
+    background-color: #151622;
+}
+
+.collapse p{
+    color:#ffffff
+}
+
+.carousel-item img{
+    display: block;
+    margin: auto; 
+}
+ 
+.card img{
+    max-height: 550px; 
+}
+
+.alert {
+    margin-left: 25px;
+    margin-right: 25px;
+}

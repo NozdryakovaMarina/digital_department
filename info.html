@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Информация о киноактёре</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-color">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/icon.jpg" alt="Avatar Logo" style="width:60px;" class="rounded-pill"> 
+          </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="info.html">Основная информация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="films.html">Список фильмов</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+ 
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+   
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/photo1.jpg" alt="Фото 1" class="d-block w-300">
+        <div class="carousel-caption">
+            <h3>Джейсон Стэйтем</h3>
+            <p>Если заблудился в лесу, <br>иди домой.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/photo.jpg" alt="Фото 2" class="d-block w-200">
+        <div class="carousel-caption">
+            <h3>Джейсон Стэйтем</h3>
+            <p>Кто рано встает — тому <br>весь день спать хочется.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/photo2.jpg" alt="Фото 3" class="d-block w-200">
+        <div class="carousel-caption">
+            <h3>Джейсон Стэйтем</h3>
+            <p>Работа не волк. Никто не волк.<br>Только волк — волк.</p>
+          </div>
+      </div>
+    </div>
+   
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+<div class="container">
+    <h2>Фильмы актёра</h2>
+    <div class="row"> 
+        <div class="col">
+            <div class="card">
+                <img src="img/fortuna.webp" style="width:100%" class="card-img-top" alt="Постер фильма 1">
+                <div class="card-body">
+                    <h5 class="card-title">Операция "Фортуна"</h5>
+                    <p class="card-text">Команда шпионов пытается сорвать продажу супероружия. Джейсон Стэйтем и Хью Грант в экшен-комедии Гая Ричи</p>
+                    <a href="https://www.kinopoisk.ru/film/1405508/" target="_blank" class="btn btn-dark">Смотреть на Кинопоиске</a>
+                </div>
+            </div>
+        </div> 
+        <div class="col">
+            <div class="card">
+                <img src="img/gnev.webp" style="width:100%" class="card-img-top" alt="Постер фильма 2">
+                <div class="card-body">
+                    <h5 class="card-title">Гнев человеческий</h5>
+                    <p class="card-text">Хладнокровный Эйч идет по следу грабителей, убивших его сына. Джейсон Стэйтем в брутальном боевике Гая Ричи</p>
+                    <a href="https://www.kinopoisk.ru/film/1318972/" target="_blank" class="btn btn-dark">Смотреть на Кинопоиске</a>
+                </div>
+            </div>
+        </div> 
+        <div class="col">
+            <div class="card">
+                <img src="img/pchela.webp" style="width:100%" class="card-img-top" alt="Постер фильма 3">
+                <div class="card-body">
+                    <h5 class="card-title">Пчеловод</h5>
+                    <p class="card-text">Он мстит за обманутую пенсионерку — и за свою пасеку. Самый яростный боевик года с Джейсеном Стэйтемом</p>
+                    <a href="https://www.kinopoisk.ru/film/4626783/" target="_blank" class="btn btn-dark">Смотреть на Кинопоиске</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <h2>Краткая информация об актёре</h2>
+    <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#collapseInfo">Показать/Скрыть</button>
+    <div id="collapseInfo" class="collapse mt-3">
+        <p>Родился: Ширли, графство Эссекс, Англия</p>
+        <p>День рождения: 26 июля 1967</p>
+        <p>Учёба: Стэйтем учился в местной школе, а затем продолжил образование в колледже, где изучал искусство и спорт.</p>
+        <p>В личной жизни Джейсон Стэйтем известен своей сдержанностью. Он долгое время встречался с моделью Розой Хантингтон-Уайтли, с которой у него есть сын.
+           Стэйтем предпочитает держать свои отношения в тайне, что добавляет загадочности к его образу. Вне съемочной площадки он увлекается спортом, особенно 
+           плаванием и боевыми искусствами, что отражается в его кинематографических ролях.</p>
+    </div>
+</div>
+</body>
+</html>
